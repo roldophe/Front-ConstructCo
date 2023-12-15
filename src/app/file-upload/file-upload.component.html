@@ -1,0 +1,5 @@
+<p>file-upload works!</p>
+<div>
+    <img [src]="previewUrl" alt="File Preview" *ngIf="previewUrl" style="width: 200px; height: 200px; border:1px solid; padding: 1px;"/>
+    <input type="file" (change)="onChangeFile($event)" />
+  </div>
